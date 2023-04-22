@@ -1,0 +1,123 @@
+.nv{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #22242d;
+    --bg-secondary: #141418;
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 100vh;
+    width: 80px;
+    position: fixed;
+    background-color: var(--bg-secondary);
+    z-index: +1;
+    transition: width 200ms ease;
+}
+
+.navbar-nav{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-item{
+    width: 100%;
+}
+
+/* .nav-item:last-child{
+    margin-bottom: auto;
+} */
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    text-decoration: none;
+    color: var(--text-primary);
+    filter: grayscale(100%) opacity(0.7);
+    transition: var(--transition-speed);
+}
+
+.nav-link:hover {
+    filter: grayscale(0%) opacity(1);
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+}
+
+.link-text{
+    display: none;
+    margin-left: 16px;
+}
+
+.nav-link svg {
+    width: 32px;
+    min-width: 32px;
+    margin: 0 24px;
+}
+
+.navbar:hover{
+    width: 256px;
+}
+
+.navbar:hover .link-text{
+    display: block;
+}
+
+.fa-primary {
+    color: #f5deb3;
+}
+  
+.fa-secondary {
+  color: #c69749;
+}
+  
+.fa-primary,
+.fa-secondary {
+  transition: var(--transition-speed);
+}
+
+.navbar:hover .logo svg {
+    transform: rotate(-180deg);
+}
+
+.navbar:hover .logo-text{
+    position : absolute;
+    left: 64px;
+}
+
+.logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    text-align: center;
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    font-size: 20px;
+    letter-spacing: 0.3ch;
+    width: 100%;
+  }
+  
+  .logo svg {
+    transform: rotate(0deg);
+    transition: var(--transition-speed);
+  }
+  
+  .logo-text
+  {
+    display: inline;
+    position: absolute;
+    left: -1000px;
+    transition: var(--transition-speed);
+  }
+  
+

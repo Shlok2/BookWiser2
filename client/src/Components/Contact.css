@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+
+
+.head{
+  position: absolute;
+  left: 700px;
+  top: 100px;
+}
+
+.con{
+  font-family: 'Raleway', sans-serif;
+}
+
+.card-component{
+  position: absolute;
+  left: 550px;
+  top: 150px;
+  width: 30%;
+  height: 500px;
+}
+
+.form_input{
+  background-color:#242424;
+  color: #afaeaf;
+  font-weight:bold;
+  font-family: 'Open Sans';
+  border: 1px solid hsl(0, 0%, 10%);
+  text-align: center;
+  outline: none;
+  /* width: 90%; */
+  width: 435px;
+  height: 10%;
+  margin: 10px;
+}
+
+.form_input2{
+  background-color:#1589FF;
+  color: #fff;
+  font-weight:bold;
+  font-family: 'Open Sans';
+  border: 1px solid hsl(0, 0%, 10%);
+  text-align: center;
+  outline: none;
+  /* width: 90%; */
+  width: 435px;
+  height: 10%;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.name{
+  position: absolute;
+}
+
+.lastName{
+  position:absolute;
+  top: 13%;
+}
+
+.email{
+  position : absolute;
+  top: 26%;
+}
+
+.phone{
+  position: absolute;
+  top: 39%;
+}
+
+.message{
+  position: absolute;
+  top: 52%;
+  text-align: center;
+  resize: none;
+  height: 120px;
+}
+
+.submit {
+  position: absolute;
+  bottom: 0%;
+}
+
+.form_sent_message{
+  position: absolute;
+  left:540px;
+  bottom:8%;
+  background-color:#242424;
+  font-weight:bold;
+  font-family: 'Open Sans';
+  width: 461px;
+  height: 5%;
+  margin: 10px;
+  text-align: center;
+}
+
+.form_sent_message .top_height{
+  margin-top: 10px;
+}
